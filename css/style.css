@@ -25,10 +25,18 @@ a:active, a:focus {
   border: none;
   -moz-outline-style: none;
 }
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+a, input, button, img {
+	transition: .3s all ease;
+}
 
 
 .wrapper {
 	overflow: hidden;
+	background: #F3F3F3;
 }
 .owl-drag {
     overflow: hidden;
@@ -39,6 +47,54 @@ a:active, a:focus {
 .owl-dots {
     display: none;
 }
+
+header {
+	
+}
+header .head-block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
