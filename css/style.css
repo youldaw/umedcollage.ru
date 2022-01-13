@@ -48,6 +48,31 @@ a, input, button, img {
     display: none;
 }
 
+.for-after {
+	position: relative;
+	z-index: 2;
+}
+.block-after {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	margin: auto;
+	width: 93%;
+	height: 100px;
+	background: #F3F3F3;
+	box-shadow: 16px 16px 65px rgba(31, 2, 89, 0.06);
+	border-radius: 30px;
+	z-index: 1;
+}
+.title h2 {
+	font-size: 40px;
+	line-height: 40px;
+	color: #363636;
+}
+
+
 .left-menu {
 	background: #5E419D;
 	box-shadow: 16px 16px 65px rgba(31, 2, 89, 0.06);
@@ -103,14 +128,12 @@ a, input, button, img {
 }
 /* /////// right help button ///////////////// */
 
-header {
-	padding: 35px 0;
-	border-bottom: 1px solid rgba(54,54,54, .1);
-}
 header .head-block {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 35px 0;
+	border-bottom: 1px solid rgba(54,54,54, .1);
 }
 header .head-btn a {
 	font-size: 14px;
@@ -156,9 +179,10 @@ header .head-elements a:hover {
 }
 
 .main-sec {
-	padding: 71px 0;
+	padding: 76px 0 0;
 	background-image: url('../images/main-bg.png');
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 .main-sec .main-rov {
 	align-items: center;
@@ -178,6 +202,7 @@ header .head-elements a:hover {
 	border-radius: 30px;
 	padding: 38px 36px 38px;
 	position: relative;
+	z-index: 2;
 }
 .main-sec .main-item .main-title {
 	display: flex;
@@ -207,21 +232,48 @@ header .head-elements a:hover {
 	line-height: 140%;
 	color: #363636;
 }
-
-.block-after {
-	display: inline-block;
-	position: absolute;
-	bottom: -10px;
-	left: 0;
-	right: 0;
-	margin: auto;
-	width: 96%;
-	height: 230px;
-	background: #F3F3F3;
-	border-radius: 30px;
-	z-index: -1;
+/* ///////// */
+.secondary-education {
+	padding-top: 90px;
+	background-image: url('../images/secondary-bg.svg');
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.secondary-education .title {
+	margin-bottom: 50px;
+}
+.secondary-education .bread-location {
+	margin-bottom: 20px;
+}
+.secondary-education .bread-location p,
+.secondary-education .bread-location a,
+.secondary-education .bread-location {
+	display: flex;
+	align-items: center;
+}
+.secondary-education .bread-location p {
+	font-size: 17px;
+	line-height: 20px;
+	color: #363636;
+}
+.secondary-education .bread-location a {
+	font-size: 17px;
+	line-height: 20px;
+	color: #363636;
+	opacity: 0.3;
+	margin-left: 37px;
+}
+.secondary-education .bread-location a:hover {
+	opacity: 1;
+}
+.secondary-education .bread-location p img,
+.secondary-education .bread-location a img {
+	margin-right: 11px;
 }
 
+.secondary-education .educ-block {
+	display: block;
+}
 
 
 
