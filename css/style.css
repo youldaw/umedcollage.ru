@@ -1258,7 +1258,10 @@ span.gray {
 	color: #363636;
 	margin-top: 16px;
 }
-
+/* ///////////// new page ////////// */
+.applicants-sec .title h1 {
+	margin-bottom: 60px;
+}
 
 
 
@@ -1285,6 +1288,7 @@ footer.index-ftr .ftr-info .ftr-callback,
 footer.index-ftr .ftr-menu a {
 	color: #fff;
 }
+footer .ftr-menu a:hover,
 footer.index-ftr .ftr-menu a:hover {
 	color: #9c7edf;
 }
@@ -1307,6 +1311,7 @@ footer .ftr-menu a {
 	color: #363636;
 	margin-bottom: 9px;
 }
+
 
 footer .ftr-menu a:last-child {
 	margin-bottom: 0;
