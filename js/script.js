@@ -1,5 +1,5 @@
 $(function (){
-    // $('input[name=phone]').mask('+7 (999) 999-99-99');
+    $('input[name=phone]').mask('+7 (999) 999-99-99');
 
     $('.news-slide').owlCarousel({
         loop:true,
