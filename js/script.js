@@ -99,6 +99,11 @@ $(function (){
     });
 
 
+    $('.accordion-button').on('click',function(e){
+        e.preventDefault();
+        $(this).toggleClass('active');
+    });
+
     $('.menu-mob, .menu-closer').on('click',function(e){
         e.preventDefault();
         $('.top-left').toggleClass('active');
