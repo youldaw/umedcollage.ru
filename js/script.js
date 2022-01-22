@@ -230,12 +230,15 @@ $(function (){
         e.preventDefault();
         $(this).toggleClass('active');
     });
+    
 
     $('.menu-opener a').on('click',function(e){
         e.preventDefault();
         $(this).toggleClass('active');
-        $('.left-menu').toggleClass('minimized');
+        $('.menu-block').toggleClass('active');
+        $('.overlay').toggleClass('active');
     });
+    
 
     $('.search-opener').on('click',function(e){
         e.preventDefault();
