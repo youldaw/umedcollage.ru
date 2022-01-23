@@ -37,8 +37,16 @@ $(function (){
         navText: ['<img src="images/slide-left-arrow.png">','<img src="images/slide-right-arrow.png">'],
         responsive:{
             0:{
-                items:1.2,
+                items:1.1,
                 margin: 0,
+            },
+            320:{
+                items:1.3,
+                margin:0,
+            },
+            400:{
+                items:1.7,
+                margin:0,
             },
             600:{
                 items:3,
@@ -231,7 +239,7 @@ $(function (){
         e.preventDefault();
         $(this).toggleClass('active');
     });
-    
+
 
     $('.menu-opener a').on('click',function(e){
         e.preventDefault();
