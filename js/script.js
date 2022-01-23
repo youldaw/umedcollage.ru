@@ -213,7 +213,7 @@ $(function (){
 
     $('.nh-slide').owlCarousel({
         loop:true,
-        margin:40,
+        margin:30,
         nav:false,
         dots:false,
         // center: true,
@@ -223,6 +223,7 @@ $(function (){
         responsive:{
             0:{
                 items:1,
+                loop:false,
             },
             600:{
                 items:1,
