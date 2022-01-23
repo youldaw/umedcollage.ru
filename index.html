@@ -37,7 +37,7 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="navbar-collapse">
 					<ul class="navbar-nav">
-						<li class="nav-item">
+						<li class="nav-item lk-item">
 							<a class="nav-link lk" href="#"><img src="images/lk-icon.svg" alt=""> Личный кабинет</a>
 						</li>
 						<li class="nav-item dropdown">
@@ -133,7 +133,8 @@
 					<div class="col-lg-12">
 						<div class="head-block">
 							<div class="head-logo">
-								<a href="#!"><img src="images/head-logo.svg" alt=""></a>
+								<a href="#!" class="pc"><img src="images/head-logo.svg" alt=""></a>
+								<a href="#!" class="mob"><img src="images/mob-logo.svg" alt=""></a>
 							</div>
 							<div class="head-btn">
 								<a href="#!">Ждем вас на дне открытых дверей 25.04.22</a>
@@ -153,9 +154,18 @@
 									</ul>
 									<button type="submit" class="search-btn"><img src="images/btn-search-icon.svg" alt=""></button>
 								</form>
-								<a href="#!" class="head-items search-opener"><img src="images/search-icon.svg" alt=""></a>
-								<a href="#!" class="head-items"><img src="images/view-icon.svg" alt=""></a>
-								<a href="#!" class="head-items"><img src="images/user-icon.svg" alt=""></a>
+								<a href="#!" class="head-items search-opener pc"><img src="images/search-icon.svg" alt=""></a>
+								<a href="#!" class="head-items head-view"><img src="images/view-icon.svg" alt=""></a>
+								<a href="#!" class="head-items head-lk pc"><img src="images/user-icon.svg" alt=""></a>
+
+								<a href="#!" class="head-items search-opener mob"><img src="images/mob-search-icon.svg" alt=""></a>
+								<a href="#!" class="head-items head-lk mob">
+									<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<circle cx="16" cy="16" r="15.5" stroke="#5E419D"/>
+										<path d="M22.1819 22.7577C21.8173 21.737 21.0138 20.8351 19.8961 20.1919C18.7783 19.5487 17.4089 19.2 16 19.2C14.5911 19.2 13.2216 19.5487 12.1039 20.1919C10.9862 20.8351 10.1827 21.737 9.81807 22.7577" stroke="#5E419D" stroke-width="1.2" stroke-linecap="round"/>
+										<ellipse cx="16" cy="12.8" rx="3.2" ry="3.2" stroke="#5E419D" stroke-width="1.2" stroke-linecap="round"/>
+									</svg>										
+								</a>
 							</div>
 						</div>
 					</div>
@@ -247,8 +257,8 @@
 						<a href="#!"><img src="images/location-icon.svg" alt=""> Дополнительное образование</a>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-4">
+				<div class="row educ-rov">
+					<div class="col-lg-4 col-md-6 col-12 educ-col">
 						<a href="#!" class="educ-block">
 							<div class="educ-img">
 								<img src="images/educ-img1.png" alt="">
@@ -265,7 +275,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-6 col-12 educ-col">
 						<a href="#!" class="educ-block">
 							<div class="educ-img">
 								<img src="images/educ-img2.png" alt="">
@@ -282,7 +292,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-6 col-12 educ-col">
 						<a href="#!" class="educ-block">
 							<div class="educ-img">
 								<img src="images/educ-img3.png" alt="">
@@ -299,7 +309,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-6 col-12 educ-col">
 						<a href="#!" class="educ-block">
 							<div class="educ-img">
 								<img src="images/educ-img4.png" alt="">
@@ -316,7 +326,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-6 col-12 educ-col">
 						<a href="#!" class="educ-block">
 							<div class="educ-img">
 								<img src="images/educ-img5.png" alt="">
@@ -335,7 +345,7 @@
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row banner-rov">
 					<div class="col-lg-12 for-after">
 						<div class="row banner">
 							<div class="col-lg-6 banner-left">
@@ -501,12 +511,12 @@
 			<div class="container for-after">
 				<div class="qr-rov">
 					<div class="row">
-						<div class="col-lg-6 qr-left">
+						<div class="col-xl-6 col-lg-5 qr-left">
 							<div class="qr-code">
 								<img src="images/qr.png" alt="">
 							</div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-xl-6 col-lg-7 qr-right">
 							<div class="download-text">
 								<h2>Скачай <br> мобильное <br> приложение</h2>
 								<p>Подать заявление на поступление, посмотреть расписание занятий и успеваемость —  все это в одном приложении</p>
@@ -527,10 +537,10 @@
 			<div class="container">
 				<div class="ftr-rov for-after">
 					<div class="row for-after">
-						<div class="col-lg-3 ftr-logo">
+						<div class="col-lg-3 col-sm-6 ftr-logo">
 							<a href="#!"><img src="images/white-ftr-logo.svg" alt=""></a>
 						</div>
-						<div class="col-lg-3 pl-0">
+						<div class="col-lg-3 col-sm-6 pl-0">
 							<div class="ftr-menu">
 								<a href="#!">О колледже</a>
 								<a href="#!">Студентам</a>
@@ -540,7 +550,7 @@
 								<a href="#!">Сведения об образовательной организации</a>
 							</div>
 						</div>
-						<div class="col-lg-3 ftr-col-address">
+						<div class="col-lg-3 col-sm-6 ftr-col-address">
 							<div class="ftr-info">
 								<a href="tel:" class="ftr-tel">+7 351 202 00 60</a>
 								<a href="#!" class="ftr-callback"><img src="images/tel-icon.svg" alt=""> Получить консультацию</a>
@@ -550,7 +560,7 @@
 								<a href="#!">Как нас найти? <img src="images/deg-white-arrow.svg" alt=""></a>
 							</div>
 						</div>
-						<div class="col-lg-3 ftr-end">
+						<div class="col-lg-3 col-sm-6 ftr-end">
 							<div class="ftr-button">
 								<a href="#!"><img src="images/chat-icon.svg" alt=""> Задать вопрос</a>
 							</div>

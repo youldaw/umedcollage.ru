@@ -14,13 +14,13 @@ $(function (){
         navText: ['<img src="images/slide-left-arrow.png">','<img src="images/slide-right-arrow.png">'],
         responsive:{
             0:{
-                items:1,
+                items:1.1,
             },
             600:{
                 items:1,
             },
             1000:{
-                items:2,
+                items:1.4,
                 margin:20,
             }
         }
@@ -37,13 +37,14 @@ $(function (){
         navText: ['<img src="images/slide-left-arrow.png">','<img src="images/slide-right-arrow.png">'],
         responsive:{
             0:{
-                items:1,
+                items:1.2,
+                margin: 0,
             },
             600:{
                 items:3,
             },
             1000:{
-                items:4,
+                items:3.4,
             }
         }
     });
@@ -237,6 +238,8 @@ $(function (){
         $(this).toggleClass('active');
         $('.menu-block').toggleClass('active');
         $('.overlay').toggleClass('active');
+        $('header').toggleClass('active');
+        $('.left-menu').toggleClass('active');
     });
     
 
